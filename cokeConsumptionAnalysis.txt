@@ -1,0 +1,53 @@
+Prelim Questions:
+1. What/who produced the data?
+- this data was produced by the Beverage Digest, which publishes and gathers data regarding non-alcoholc beverages. this datas was obtained through a national survey in each of the countries.
+- data was also produced through the 
+
+2. Why can you use this data?
+- the beverage digest allows users to each download one pdf/excel document version of the data, and the data can also be found on statista, which is a free, credible, online source with hundreds of thousands of data sets.
+
+Analyzing the Data:
+1. relationship between proximity to where coca cola orginiated (mexico) and where it has highest consumption?
+2. compared to other soft drink beverages, are the highest countries the same?
+3. relationship to countries with the highest level of obesity and the levels of consumption?
+
+Sources:
+- https://www.universitymagazine.ca/countries-that-drink-the-most-coca-cola/ 
+- https://www.statista.com/statistics/505794/cds-per-capita-consumption-in-worlds-top-ten-population-countries/ 
+
+1. Introduction
+    a. what is your general motivation for exploring this topic? provide some context that explains why the topic is interesting or important to you
+    - I choose this data set because I love drinking coca cola and I find that when I have traveled abroad there are different levels of consumption in different places that I go.
+    - ex. personally, when I traveled to Europe for example I feel like there are more people drinking coca cola, and I was curious to investigate this.
+    - I have always loved soda and specifically coca cola has been my favorite, and the level of consumption I felt varied from place to place
+   
+    b. what are the questions that you attempted to answer?
+    - the first question that I attempted to answer is if there is a relationship between the proximity of where coca cola originated (atlanta, GA) and to where its the most popular.
+    - the second question that I attempted to answer is if other soft drink beverages, like sprite or fanta, have the same highest consumption rate in other countries (like if coke is highest in one country, does that mean fanta will be the highest as well)
+    - another question that I attempted to answer is if there is a relationship between countries with the highest levels of obesity and the levels of consumption for coca cola
+
+2. methods
+    a. dataset
+    - I originally found this data set on the website, University Magazine from Canada, whose goal is to provides tips on Student Life, Financial, Career, Majors, Ranking, and Important news that will impact students.
+    - However, the data is actually from the Beverage Digest, which is a privately owned company that publishes and garthers data regarding non-alcoholic beverages.
+    - to discover specifcally how my data set was created, I reached out to the company.
+    - I am able to use this dataset because on the website of the Beverage Digest under the copyright and privacy section it allows users to each download one pdf/excel document version of the data, and the data can also be found on statista, which is a free, credible, online source with hundreds of thousands of data sets.
+
+    b. process
+    - I went about answering the questions by first gathering the data from outside sources that I would need, starting with the proximity of each of the countries to the United States of America. I did this by finding the distance in miles from the country on the original data set to the United states.
+    - Next, I looked at the data and determined if there was any correlation between which had the lowest distance but highest consumption per capita of coca cola.
+    - To answer the next question regarding the relationship between other beverage consumption, I selected the second most popular and nationally reaching soda, which is Pepsi. I then repeated the process of finding data on the per capita consumption of this soda and inputted it into my spreadsheet containing my other data.
+    - To answer the question regarding the relatinoship between obesity and Coca Cola consumption in each country, I collected data on the average BMI of indviduals per country, which is the most common measure of national obesity per country.
+ 
+    c. challenges
+    - One challeneg that I ran into was when I was compiling data from the internet outside of my original data set from the Beverage Digest, I had to ensure that it was coming from reputable sources when I was pulling the data from Google.
+    - To go about solving this issue, I made sure to only find data coming from places with .gov or national affiliation, instead of just choosing the first statistic that I found.
+    - Another challenge that I faced was determining the overlap in data and because the sample size was relatively small, it was difficult to make meaningful conclusions.
+
+3. results and conclusion
+    a. summary findings
+    - Overall, the data showed
+
+    b. other research
+    - If I had more time and resources that I would utilize to continue analyzing and understanding this data set is the distribution pathways and availability of coca cola in each of these countries.
+    
