@@ -33,11 +33,15 @@ In my results, I found that
 
 Overall, the data showed that the average level of consumption of coca cola in each of the 18 countries in my data set was
 
+### Further Research
+If I had more time and resources that I would utilize to continue analyzing and understanding this data set is the distribution pathways and availability of coca cola in each of these countries. For example, I would look into the question regarding if the reason that there is higher consumption in some places over others is because of the larger accesibility to distribution networks and the amount that each is available in stores or other places.
+
+
 ### Bar Graph 
 In order to visualize the data that I was working with, I constructed a simple bar chart to display the quantitative data of the comparison of each country with their average coca cola conusmption levels per capita for the 19 countries.
 ![Per Capita Coke Consumption Bar Graph](/Users/pvonoiste/Desktop/BarGraph)
 
 ### World Graph
 Additionally, I used another feature to visualize my data that displays the distributio and relative quantities of per capita consumption of coca cola across the world by country. The darker and more saturated countries represent higher per capita consumption and the lighter less saturated countries represent the lower amounts of per capita consumption.
-![Per Capita Coke Consumption World Graph] (/Users/pvonoiste/Desktop/WorldGraph))
+![Per Capita Coke Consumption World Graph](/Users/pvonoiste/Desktop/WorldGraph))
 
