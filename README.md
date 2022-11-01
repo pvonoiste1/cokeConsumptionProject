@@ -53,7 +53,7 @@ Additionally, I used another feature to visualize my data that displays the dist
 ![Per Capita Coke Consumption World Graph](WorldGraph.png)
 
 ### Scatter Plot to visualize linear relationships
-<img src="ProxPerCapGraph.png" width="500" height="300">
+<img src="ProxPerCapGraph.png" width="600" height="400">
 
 ![Per Capita Coke Consumption and Average BMI Scatter Plot](BMIPerCap.png)
 
