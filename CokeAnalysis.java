@@ -4,10 +4,10 @@ public class CokeAnalysis{
     public static void main(String[] args) throws FileNotFoundException{
         ArrayList<Double> test = new ArrayList<Double>(Arrays.asList(1.0, 5.0, 7.0));
         double mean = mean(test);
-        System.out.println(standardDeviation(test, mean));
+        //System.out.println(standardDeviation(test, mean));
         File f = new File("countriesCoke.csv");
-        mainFindR(f,"Per capita consumption in 8 oz servings", "Proximity to USA (miles)");
-        mainFindR(f, "Per capita consumption in 8 oz servings", "Average BMI (%)");
+        mainFindR(f,"Per capita consumption in 8 ounce servings", "Proximity to USA (miles)");
+        mainFindR(f,"Per capita consumption in 8 ounce servings", "Average BMI (%)");
     }
 
     //find correlation coefficient between proximity two variables given name of columns
@@ -22,8 +22,8 @@ public class CokeAnalysis{
         ArrayList <Double> list2 = new ArrayList<Double> ();
 
         //find indices for two variables
-        int index1 = headerAsL.indexOf(column1); //"Per capita consumption in 8 oz servings"
-        int index2 = headerAsL.indexOf(column2); //"Proximity to USA (miles)"
+        int index1 = headerAsL.indexOf(column1); // ex. "Per capita consumption in 8 oz servings"
+        int index2 = headerAsL.indexOf(column2); // ex. "Proximity to USA (miles)"
 
         //populate arrayLists for the two columns
         while(fileScan.hasNextLine()){
@@ -56,7 +56,7 @@ public class CokeAnalysis{
     public static double standardDeviation(ArrayList<Double> list, double mean){
         double total = 0;
         for(int i = 0; i<list.size();i++){
-            // sum all the differences between the indivdiaul x and the mean squared
+            // sum all the differences between the individual x and the mean squared
             total += Math.pow(list.get(i)-mean, 2);
         }   
         // divide total by total 'N' and take sqrt
