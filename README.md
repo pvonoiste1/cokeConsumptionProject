@@ -50,7 +50,7 @@ In order to visualize the data that I was working with, I constructed a simple b
 
 ### World Graph
 Additionally, I used another feature to visualize my data that displays the distributio and relative quantities of per capita consumption of coca cola across the world by country. The darker and more saturated countries represent higher per capita consumption and the lighter less saturated countries represent the lower amounts of per capita consumption.
-<img src="WorldGraph.jpg" width="600" height="400">
+<img src="WorldGraph.png" width="600" height="400">
 
 ### Scatter Plot to visualize linear relationships
 <img src="ProxPerCapGraph.png" width="600" height="400">
