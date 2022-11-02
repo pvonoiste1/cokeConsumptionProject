@@ -41,6 +41,8 @@ public class CokeAnalysis{
         //find r and print out
         double r = findR(mean1, mean2, list1, list2);
         System.out.println("The correlation coefficient between " + column1 + " and " + column2 + " is " + r + ".");
+        double rSquared = findRSquared(r);
+        System.out.println(100*rSquared + " of the variability in " + column1 + " can be accounted for in the change in " + column2 + ".");
     }
 
     public static double mean(ArrayList<Double> list){
@@ -77,6 +79,10 @@ public class CokeAnalysis{
         }
         //r is numerator divided by the sqaure root of the product of the sums
         return numer/(Math.sqrt(xsum*ysum));
+    }
+
+    public static double findRSquared(double r){
+        return Math.pow(r, 2);
     }
 }
         
