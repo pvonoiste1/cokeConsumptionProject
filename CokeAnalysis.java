@@ -21,7 +21,7 @@ public class CokeAnalysis{
         ArrayList <Double> list1 = new ArrayList<Double> ();
         ArrayList <Double> list2 = new ArrayList<Double> ();
 
-        //find indices for two variables
+        //find indices for two variables given in the parameters
         int index1 = headerAsL.indexOf(column1); // ex. "Per capita consumption in 8 oz servings"
         int index2 = headerAsL.indexOf(column2); // ex. "Proximity to USA (miles)"
 
@@ -68,11 +68,14 @@ public class CokeAnalysis{
         double numer = 0;
         double xsum = 0;
         double ysum = 0;
+        //find the numerator by finding the product between each individual x and the mean and each individual y and the mean
         for(int i = 0; i<list1.size();i++){
             numer += (list1.get(i)-mean1)*(list2.get(i)-mean2);
+            //find each xsum and ysum, which is the square of the differences between each indvidual x and mean and each individual y and mean
             xsum += Math.pow(list1.get(i)-mean1, 2);
             ysum += Math.pow(list2.get(i)-mean2, 2);
         }
+        //r is numerator divided by the sqaure root of the product of the sums
         return numer/(Math.sqrt(xsum*ysum));
     }
 }
